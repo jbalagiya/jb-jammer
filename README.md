@@ -4,7 +4,6 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Pictures](#camera-Pictures)
   * [Features](#dart-features)
 - [Getting Started](#toolbox-getting-started)
   * [Schematic](#electric_plug-Schematic)
@@ -44,6 +43,19 @@ Make the connections according to the table and schematic below.
 | 8  | Data |
 | 3v3 | VCC |
 | GND | GND |
+
+### :gear: Installation
+
+Before uploading the code you in Arduino IDE
+<!-- Usage -->
+## :eyes: Usage
+
+In the first step, by selecting Arduino serial monitor 9600 band  the desired frequency from the options in the menu, the device will start sending a signal to the 433 MHz band, then if necessary
+
+<!-- License --> 
+## :warning: License
+
+Distributed under the MIT License. See LICENSE.txt for more information.
 
 
 Project Link: [https://github.com/jbalagiya/jb-jammer](https://github.com/jbalagiya/jb-jammer)
