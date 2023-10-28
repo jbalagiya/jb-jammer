@@ -55,11 +55,11 @@ void fre1(){
     Serial.print("#");
     }
     Serial.println("");
-
+    Serial.print(i);
+    Serial.println("%");
     Serial.println("frequency 6700");
     Serial.println("progress cycle");
-    Serial.print(i);
-    Serial.println("%"); 
+     
     delay(50);
   }   
     tone(8, 6700);  
@@ -73,11 +73,11 @@ void fre2(){
       for (int j = 1; j <= i; j=j+1) {
     Serial.print("#");
     }
-    Serial.println("");
-    Serial.println("frequency 10000");
-    Serial.println("progress cycle");
+   Serial.println("");
     Serial.print(i);
-    Serial.println("%"); 
+    Serial.println("%");
+    Serial.println("frequency 10000");
+    Serial.println("progress cycle"); 
     delay(50);
   }
     tone(8, 10000);     
@@ -91,11 +91,10 @@ for (int i = 1; i <= 100; i=i+9.9) {
     Serial.print("#");
     }
     Serial.println("");
-
-    Serial.println("frequency 1000");
-    Serial.println("progress cycle");
     Serial.print(i);
-    Serial.println("%");  
+    Serial.println("%");
+    Serial.println("frequency 1000");
+    Serial.println("progress cycle"):  
     delay(50);
   }
     tone(8, 1000);        
@@ -111,10 +110,10 @@ void fre4(){
     Serial.print("#");
     }
     Serial.println("");
+    Serial.print(i);
+    Serial.println("%");
     Serial.println("frequency random");
     Serial.println("progress cycle");
-    Serial.print(i);
-    Serial.println("%"); 
     delay(50);
  
   }
