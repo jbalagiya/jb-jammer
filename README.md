@@ -51,6 +51,11 @@ Before uploading the code you in Arduino IDE
 ## :eyes: Usage
 
 In the first step, by selecting Arduino serial monitor 9600 band  the desired frequency from the options in the menu, the device will start sending a signal to the 433 MHz band, then if necessary
+## ☕ Support
+
+If you found this project helpful or interesting, consider supporting my work:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/jbalagiya)
 
 <!-- License --> 
 ## :warning: License
